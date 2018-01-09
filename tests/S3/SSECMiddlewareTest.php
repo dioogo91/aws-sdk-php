@@ -78,7 +78,7 @@ class SseCpkListenerTest extends \PHPUnit_Framework_TestCase
                     'Key' => 'b',
                     'SSECustomerKey' => 'OUI3RDJDMzRBMzY2QkY4OTBDNzMwNjQxRTZDRUNGNkY=',
                     'SSECustomerKeyMD5' => 'bar',
-                    'SSECustomerKeyIsBase64' => true
+                    '@Base64SSECustomerKey' => 'OUI3RDJDMzRBMzY2QkY4OTBDNzMwNjQxRTZDRUNGNkY='
                 ],
                 [
                     'SSECustomerKey' => 'OUI3RDJDMzRBMzY2QkY4OTBDNzMwNjQxRTZDRUNGNkY=',
